@@ -6,11 +6,21 @@
     <title>SASS</title>
   </head>
   <body>
-    <button class="button" type="button">
-      <svg class="button-icon"></svg>
-      <span class="button-label">Замовити</span>
-    </button>
+    <div class=" notification-primary">
+      <button class="notification-btn" type="button">
+        <svg class="notification-btn-icon" width="16" height="16">
+          <use href="./src/img/icon.svg#icon-diamonds"></use>
+        </svg>
 
+        <p class="notification-text">Primary</p>
+
+        <button class="notification-btn" aria-label="Close button">
+          <svg class="notification-btn-icon" width="16" height="16">
+            <use href="./src/img/icon.svg#icon-cross"></use>
+          </svg>
+
+      </button>
+    </div>
     <script type="module" src="./src/js/main.js"></script>
   </body>
 </html>
