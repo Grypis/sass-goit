@@ -1,14 +1,18 @@
-.btn-success {
-  border: 2px solid lightgreen;
-  color: lightgreen;
+.square-avatar {
+  width: 100px;
+  height: 100px;
 }
 
-.btn-error {
-  border: 2px solid tomato;
-  color: tomato;
+.circle-avatar {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
 }
 
-.btn-info {
-  border: 2px solid lightblue;
-  color: lightblue;
+.title {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.025em;
+  text-align: center;
 }
