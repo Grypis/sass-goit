@@ -13,3 +13,8 @@
 };
 
 @debug strip-unit(24px);
+
+
+@function rem($px-value, $base-font-size: 16px) {
+    @return #{math.div(strip-unit($px-value), strip-unit($base-font-size))}rem;
+}
