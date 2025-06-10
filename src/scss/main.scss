@@ -1,3 +1,9 @@
+@use "./utils/reset";
+@use "./utils/variables";
+// @use "./utils/spacings";
+// @use "./utils/colors";
+
+
 // @use "reset";
 // @use "base/base";
 // @use "components/badge"
@@ -23,7 +29,12 @@
 // @use "./--examples--/lesson-10/each";
 // @use "./--examples--/lesson-10/for";
 
-@use "./--examples--/lesson-11/functions";
-@use "./--examples--/lesson-11/decimal";
-@use "./--examples--/lesson-11/mixins";
-@use "./--examples--/lesson-11/examples"
+// @use "./--examples--/lesson-11/functions";
+// @use "./--examples--/lesson-11/decimal";
+// @use "./--examples--/lesson-11/mixins";
+// @use "./--examples--/lesson-11/examples"
+
+// @use "./--examples--/lesson-12/colors";
+// @use "./--examples--/lesson-12/map";
+// @use "./--examples--/lesson-12/alerts";
+
